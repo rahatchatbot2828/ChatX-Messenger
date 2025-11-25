@@ -85,32 +85,32 @@ handlerCheckData.cantCreateThread=Groups with id '%1' cannot be written to the d
 handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned=🚫 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐔𝐬𝐞𝐫 𝐈𝐃: %3
-handlerEvents.threadBanned=🚫 𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐓𝐡𝐫𝐞𝐚𝐝 𝐈𝐃: %3
-handlerEvents.onlyAdminBox=🔒 𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐞𝐧𝐚𝐛𝐥𝐞𝐝 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬
-handlerEvents.onlyAdminBot=❌ | 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐭𝐡𝐞 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
-handlerEvents.onlyDeveloperGlobal=⚙️ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
-handlerEvents.onlyVipUserGlobal=💎 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
-handlerEvents.commandNotFound=❌ | 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 "%1" 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭, 𝐭𝐲𝐩𝐞 %2𝐡𝐞𝐥𝐩 𝐭𝐨 𝐬𝐞𝐞 𝐚𝐥𝐥 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬
-handlerEvents.commandNotFound2=❌ | 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭, 𝐭𝐲𝐩𝐞 %1𝐡𝐞𝐥𝐩 𝐭𝐨 𝐬𝐞𝐞 𝐚𝐥𝐥 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+handlerEvents.userBanned=⛔ 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐔𝐬𝐞𝐫 𝐈𝐃: %3
+handlerEvents.threadBanned=⛔ 𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐓𝐡𝐫𝐞𝐚𝐝 𝐈𝐃: %3
+handlerEvents.onlyAdminBox=⭕ 𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐞𝐧𝐚𝐛𝐥𝐞𝐝 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬
+handlerEvents.onlyAdminBot=🛡️ | 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐭𝐡𝐞 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
+handlerEvents.onlyDeveloperGlobal=💉 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
+handlerEvents.onlyVipUserGlobal=🗿 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭
+handlerEvents.commandNotFound=🤡 | 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 "%1" 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭, 𝐭𝐲𝐩𝐞 %2𝐡𝐞𝐥𝐩 𝐭𝐨 𝐬𝐞𝐞 𝐚𝐥𝐥 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+handlerEvents.commandNotFound2=😼 | 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭, 𝐭𝐲𝐩𝐞 %1𝐡𝐞𝐥𝐩 𝐭𝐨 𝐬𝐞𝐞 𝐚𝐥𝐥 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
 # NEW KEY ADDED FOR SUGGESTION
-handlerEvents.commandNotFoundSuggestion=🧐 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭.\n\n𝐃𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐚𝐧 %2%1 ?
+handlerEvents.commandNotFoundSuggestion=🫡 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭.\n\n𝐃𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐚𝐧 %2%1 ?
 # END NEW KEY
 
 handlerEvents.commandSyntaxError=⚠️ | 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐡𝐚𝐬 𝐰𝐫𝐨𝐧𝐠 𝐬𝐲𝐧𝐭𝐚𝐱, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐭𝐲𝐩𝐞 %1𝐡𝐞𝐥𝐩 %2 𝐭𝐨 𝐬𝐞𝐞 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐢𝐭
-handlerEvents.onlyAdmin=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
-handlerEvents.onlyAdminToUseOnReply=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyAdminBot2=💫 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
-handlerEvents.onlyAdminBot2ToUseOnReply=💫 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyAdminBot2ToUseOnReaction=💫 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyDeveloper=⚙️ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
-handlerEvents.onlyDeveloperToUseOnReply=⚙️ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyDeveloperToUseOnReaction=⚙️ | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyVipUser=💎 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
-handlerEvents.onlyVipUserToUseOnReply=💎 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
-handlerEvents.onlyVipUserToUseOnReaction=💎 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyAdmin=😿 | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
+handlerEvents.onlyAdminToUseOnReply=😹 | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyAdminToUseOnReaction=🥱 | 𝐎𝐧𝐥𝐲 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyAdminBot2=🗿 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐚𝐧𝐝 𝐚𝐛𝐨𝐯𝐞 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
+handlerEvents.onlyAdminBot2ToUseOnReply=🗿 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyAdminBot2ToUseOnReaction=🗿 | 𝐎𝐧𝐥𝐲 𝐕𝐈𝐏 𝐮𝐬𝐞𝐫𝐬 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyDeveloper=🐱 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
+handlerEvents.onlyDeveloperToUseOnReply=🐢 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyDeveloperToUseOnReaction=😎 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyVipUser=💣 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1"
+handlerEvents.onlyVipUserToUseOnReply=👅 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐥𝐲 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
+handlerEvents.onlyVipUserToUseOnReaction=👀 | 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐀𝐝𝐦𝐢𝐧𝐁𝐨𝐭 𝐚𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 "%1"
 handlerEvents.waitingForCommand=⏱ 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐰𝐚𝐢𝐭𝐢𝐧𝐠 𝐭𝐢𝐦𝐞 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐦𝐞 𝐛𝐚𝐜𝐤 𝐚𝐟𝐭𝐞𝐫 %1𝐬
 handlerEvents.errorOccurred=❌ [ %1 ]\n𝐀𝐧 𝐞𝐫𝐫𝐨𝐫 𝐨𝐜𝐜𝐮𝐫𝐫𝐞𝐝 𝐚𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\n𝐀𝐧 𝐞𝐫𝐫𝐨𝐫 𝐨𝐜𝐜𝐮𝐫𝐫𝐞𝐝 𝐚𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐨𝐧𝐂𝐡𝐚𝐭 𝐢𝐧 "%2"\n\n%3
@@ -150,7 +150,7 @@ updater.skipFile=There is a new version of the %1 file, but you have skipped thi
 verifyfbid.sendCode=Your verification code is:\n%1\nThe verification code is valid for %2 minutes
 
 # utils.js
-utils.errorOccurred=❌ An error occurred:\n\n%1
+utils.errorOccurred=💔 An error occurred:\n\n%1
 
 # for command
 command.restartedBot=Bot has been restarted
