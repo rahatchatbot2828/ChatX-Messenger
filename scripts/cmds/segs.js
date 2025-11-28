@@ -7,7 +7,7 @@ module.exports = {
   config: {
     name: "segs",
     version: "1.5",
-    author: "Azadx69x",
+    author: "Azadx69x",//Author change korle tor marechudi 
     role: 0,
     category: "18+",
     shortDescription: "Search & select HD videos",
