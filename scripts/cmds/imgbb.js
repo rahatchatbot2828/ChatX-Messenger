@@ -6,7 +6,7 @@ module.exports = {
     name: "imgbb",
     aliases: ["i"],
     version: "1.9",
-    author: "Azad 💥",//Author change korle tor marechudi 
+    author: "Azadx69x",//Author change korle tor marechudi 
     countDown: 5,
     role: 0,
     shortDescription: { en: "Convert an image to image URL" },
