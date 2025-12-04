@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
 config: {
 name: "pair2",
-author: "Azad (editor by Fahad Islam)",
+author: "Azadx69x & Fahad Islam",
 category: "TOOLS",
 },
 
@@ -22,7 +22,6 @@ const mentions = event.mentions || {};
   let user1ID = null;  
   let user2ID = null;  
 
-  // Determine pairing  
   if (mentionIDs.length >= 2) {  
     const filtered = mentionIDs.filter(id => id !== senderID);  
     if (filtered.length < 2)  
@@ -76,12 +75,11 @@ const mentions = event.mentions || {};
   const baseUserData = await usersData.get(baseUserID);  
   const senderName = baseUserData?.name || "User";  
 
-  // Load images with avatarUrl from usersData  
-  const defaultAvatar = "https://files.catbox.moe/4l3pgh.jpg"; // fallback avatar  
+  const defaultAvatar = "https://files.catbox.moe/4l3pgh.jpg";
   let sIdImage, pairPersonImage, background;  
 
   try {  
-    background = await loadImage("https://i.imgur.com/Z56ISV5.png"); // fixed background  
+    background = await loadImage("https://i.imgur.com/Z56ISV5.png");
 
     const avatarUrl1 = await usersData.getAvatarUrl(baseUserID).catch(() => null);  
     sIdImage = await loadImage(avatarUrl1 || defaultAvatar);  
@@ -94,28 +92,23 @@ const mentions = event.mentions || {};
     return api.sendMessage("❌ Failed to load images.", event.threadID, event.messageID);  
   }  
 
-  // Draw canvas with bigger pair card and caption  
   try {  
     const width = 1200;  
     const height = 600;  
     const canvas = createCanvas(width, height);  
     const ctx = canvas.getContext("2d");  
 
-    // Draw background  
     ctx.drawImage(background, 0, 0, width, height);  
 
-    // Caption text  
     const caption = "💖 Two hearts, one destiny – a perfect match! 💖";  
     ctx.font = "50px Arial";  
     ctx.fillStyle = "white";  
     ctx.textAlign = "center";  
-    ctx.fillText(caption, width / 2, 70); // top caption  
+    ctx.fillText(caption, width / 2, 70);
+ 
+    const leftCircle = { x: 200, y: 265, size: 230 };  
+    const rightCircle = { x: 495, y: 265, size: 230 };  
 
-    // Positions and sizes of existing circles in background (MADE BIGGER)  
-    const leftCircle = { x: 200, y: 265, size: 230 };  // left avatar bigger  
-    const rightCircle = { x: 495, y: 265, size: 230 }; // right avatar bigger  
-
-    // Left avatar with glow  
     ctx.save();  
     ctx.beginPath();  
     ctx.arc(leftCircle.x, leftCircle.y, leftCircle.size / 2, 0, Math.PI * 2);  
@@ -127,7 +120,6 @@ const mentions = event.mentions || {};
     ctx.drawImage(sIdImage, leftCircle.x - leftCircle.size / 2, leftCircle.y - leftCircle.size / 2, leftCircle.size, leftCircle.size);  
     ctx.restore();  
 
-    // Right avatar with glow  
     ctx.save();  
     ctx.beginPath();  
     ctx.arc(rightCircle.x, rightCircle.y, rightCircle.size / 2, 0, Math.PI * 2);  
@@ -139,12 +131,10 @@ const mentions = event.mentions || {};
     ctx.drawImage(pairPersonImage, rightCircle.x - rightCircle.size / 2, rightCircle.y - rightCircle.size / 2, rightCircle.size, rightCircle.size);  
     ctx.restore();  
 
-    // Heart overlay (unchanged)  
     ctx.font = "120px Arial";  
     ctx.fillStyle = "red";  
     ctx.fillText("", width / 2 - 60, height / 2 + 40);  
 
-    // Save canvas  
     const outputPath = path.join(__dirname, "pair2_output.png");  
     const out = fs.createWriteStream(outputPath);  
     const stream = canvas.createPNGStream();  
