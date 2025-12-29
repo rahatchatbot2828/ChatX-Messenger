@@ -31,14 +31,14 @@ module.exports = {
 │           👑 OWNER INFO 👑
 │
 │ 🧑‍💼 Name       : 𝐑𝐀𝐇𝐀𝐓
-│ 🪪 Username   : azadxxx075
+│ 🪪 Username   : rahatmahmud
 │ 🎂 Birthday   : 21 Nov
 │ 🐸 Age        : 15+
 │ 📚 Study      : 10
 │ 💕 Relation   : Single
 │ 📱 Contact    : 01828832911
 │ ✉️ Email      : rahatmahmud929@gmail.com
-│ 🌍 Location   : Chittagong, Bangladesh
+│ 🌍 Location   : Barihal, Bangladesh
 │ 🕋 Religion   : Islam
 │ 🌐 Facebook   : https://www.facebook.com/rahat122485
 │ 🎮 Hobby      : Gaming
