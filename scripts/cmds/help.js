@@ -94,7 +94,7 @@ module.exports = {
 
     msg += `🗂️ Total Commands: ${allCommands.length}\n`;
     msg += `⚡ Prefix: '${prefix}'\n`;
-    msg += `👤 Developer: Azadx69x\n`;
+    msg += `👤 Developer: Rahat\n`;
     msg += `💬 Use ${prefix}help <command> to see detailed info\n`;
     msg += `📄 Page: ${page}/${totalPage}`;
 
