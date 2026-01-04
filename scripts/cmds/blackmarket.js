@@ -22,7 +22,7 @@ module.exports = {
       if (!action) {  
         return message.reply(  
           `✨𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗕𝗹𝗮𝗰𝗸 𝗠𝗮𝗿𝗸𝗲𝘁 ✨
-👤 Author: Azadx69x
+👤 Author: Rahat
 ━━━━━━━━━━━━━━━━━━━━
 Type )bm list <page> to see all commands.
 Type )bm show <command>.js to get the raw link.`  
@@ -53,7 +53,7 @@ Type )bm show <command>.js to get the raw link.`
         const cmdsPage = cmdsInfo.slice(start, start + ITEMS_PER_PAGE);  
 
         let text = `☠️ 𝗕𝗹𝗮𝗰𝗸 𝗠𝗮𝗿𝗸𝗲𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗟𝗶𝘀𝘁 ☠️
-👤 Author: Azadx69x
+👤 Author: Rahat
 ━━━━━━━━━━━━━━━━━━━━
 `;
 
