@@ -79,7 +79,7 @@ module.exports = {
     const start = (page - 1) * numberOfOnePage;
     const commandsToShow = allCommands.slice(start, start + numberOfOnePage);
 
-    let msg = `☠️_X69X HELP MENU_☠️\n\n`;
+    let msg = `☠️ HELP MENU_☠️\n\n`;
     let lastCategory = "";
 
     for (const cmd of commandsToShow) {
