@@ -95,7 +95,7 @@ Birthday:21 Nov😶
       });
     }
 
-    if (text === "Azad") {
+    if (text === "Rahat") {
       return message.reply({
         body: `
 ~ Ore dako kno !? ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaahhhhhhhhh 😘💋👀`,
